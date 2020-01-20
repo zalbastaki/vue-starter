@@ -1,4 +1,4 @@
-# imshowcase2020
+# IM Showcase 2020
 
 ## Project setup
 ```
@@ -19,6 +19,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
