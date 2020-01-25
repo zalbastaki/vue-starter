@@ -10,16 +10,10 @@ const routes = [
         name: 'home',
         component: Home,
     },
-    {
-        path: '/about',
-        name: 'about',
-        component: function() {
-            return import('../views/About.vue');
-        },
-    },
 ];
 
 const router = new VueRouter({
+    mode: 'history',
     routes,
 });
 
