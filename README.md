@@ -1,6 +1,6 @@
 # Vue Starter
 
-This is a vue starter template with google fonts plugin integrated.
+This is a vue starter template. Find branches with google fonts plugin integrated, and Netlify CMS configured.
 
 ## Project setup
 ```

@@ -1,5 +1,3 @@
-const GoogleFontsPlugin = require('@beyonk/google-fonts-webpack-plugin');
-
 module.exports = {
     css: {
         loaderOptions: {
@@ -8,15 +6,4 @@ module.exports = {
             }
         }
     },
-
-    configureWebpack: {
-        plugins: [
-            new GoogleFontsPlugin({
-                fonts: [
-                    { family: 'Iceland' },
-                ],
-            }),
-        ],
-    },
-
 };
