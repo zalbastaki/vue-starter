@@ -1,34 +1,16 @@
 <template>
     <div class="home">
-        <img src="@/assets/images/logo.png" alt="logo" class="logo" />
-        <h1>Coming Soon!</h1>
+        <h1>This is the {{ data.title }}</h1>
     </div>
 </template>
 
 <script>
+    import dataLoader from '../mixins/dataLoader';
+    import data from '../content/home.md';
+
     export default {
         name: 'home',
+
+        mixins: [dataLoader(data)],
     };
 </script>
-
-<style lang="scss" scoped>
-    .home {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #f9f9f9;
-
-        h1 {
-            font-family: $main-font;
-            font-size: 50px;
-            margin: 20px 0 0;
-        }
-    }
-
-    .logo {
-        height: 30%;
-    }
-</style>
