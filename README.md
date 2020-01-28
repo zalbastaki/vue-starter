@@ -1,4 +1,6 @@
-# IM Showcase 2020
+# Vue Starter
+
+This is a vue starter template with google fonts plugin integrated.
 
 ## Project setup
 ```
