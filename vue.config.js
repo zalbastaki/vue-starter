@@ -6,9 +6,9 @@ module.exports = {
     css: {
         loaderOptions: {
             sass: {
-                prependData: `@import "@/assets/scss/styles.scss";`
-            }
-        }
+                prependData: `@import "@/assets/scss/styles.scss";`,
+            },
+        },
     },
 
     configureWebpack: {
@@ -29,7 +29,7 @@ module.exports = {
                 // Absolute path to compiled SPA
                 staticDir: path.join(__dirname, 'dist'),
                 // List of routes to prerender (ex. those using netlify forms)
-                routes: [ '/contact'],
+                routes: ['/contact'],
             }),
         ],
     },
